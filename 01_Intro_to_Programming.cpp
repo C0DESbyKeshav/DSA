@@ -237,5 +237,31 @@ In same space if 1 transistor : size = 2
 
 /*
 Computer only understands Machine Language which was a problem for the programmers back then as they had to convert all the code into the machine code first which caused many errors and mistakes.
-Suppose two people talking to each other in 
+Suppose two people talking to each other in different languanges unknown to the each other; they will need a translator.
+In the same way we keep an assembler in between the communication line of human and the machine.
+The assembler converts the instruction given by the programmer in Assembly language like (ADD 23 75) into binary language and then leaves the processing work to the computer.
+
+In high level language (HLL), the assembler is the compiler or the interpreter.
+
+In terms of speed:
+Machine code >> Assembly >> HLL
+*/
+
+/*
+We want that when we store any data then it should take as less space as possible and while fetching, it should take as less time as possible.
+Lets assume you have to find 14 in a list of numbers that are randomly arranged => 3, 25, 14, 98, 71, 35, 21, 10, 1
+It will a difficult to find 14 as we have to traverse through each number to and check each time if that number is 14 or not and what if the total numbers are 1 lakh or more than that.
+It will just take too much time.
+So instead, to shorten the time taken, we will first sort the numbers in ascending order => 1, 3, 10, 14, 21, 25, 35, 71, 98
+And now we can go to any random number say 35 and then we can check if 14 < 35 then we will know that we have to find 14 in the list of numbers appearing before 35 and do the same thing.
+As the list will split into half each time and the main list will shorten each time, this will also shorten the time taken to find 14
+
+Now, how come we know that the number should be arranged in ascending order or descending order or how to randomly choose a number or how will the time and space taken will be less ?
+This is nothing but DSA - Data Structure and algorithm.
+*/
+
+/*
+If the computer adds the first lakh numbers like 1 + 2 + 3 + .... + 100000, it will take more time.
+But if it applies the formula of sum of first n natural numbers like (n * (n+1)) / 2, then it will comparatively take very less time.
+We will learn these type of tricks in the Algorithm part.
 */
