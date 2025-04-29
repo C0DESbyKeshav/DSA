@@ -143,3 +143,6 @@ int main()
 
     return 0;
 }
+
+// * HOMEWORK:
+// Just a waste of time.

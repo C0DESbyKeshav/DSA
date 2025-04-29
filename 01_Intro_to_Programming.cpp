@@ -265,3 +265,44 @@ If the computer adds the first lakh numbers like 1 + 2 + 3 + .... + 100000, it w
 But if it applies the formula of sum of first n natural numbers like (n * (n+1)) / 2, then it will comparatively take very less time.
 We will learn these type of tricks in the Algorithm part.
 */
+
+/*
+* HOMEWORK:
+
+I. Convert Decimal to Binary
+   1. (37)₁₀ = (1 0 0 1 0 1)₂
+   2. (92)₁₀ = (1 0 1 1 1 0 0)₂
+   3. (128)₁₀ = (1 0 0 0 0 0 0 0)₂
+   4. (243)₁₀ = (1 1 1 1 0 0 1 1)₂
+
+II. Convert Binary to Decimal
+   1. (1011)₂ = (11)₁₀
+   2. (111001)₂ = (57)₁₀
+   3. (10011011)₂ = (155)₁₀
+   4. (10100100)₂ = (164)₁₀
+
+III. Convert Decimal to Octal
+   1. (28)₁₀ = (34)₈
+   2. (47)₁₀ = (57)₈
+   3. (928)₁₀ = (1640)₈
+   4. (1243)₁₀ = (2333)₈
+
+IV. Convert Octal to Decimal
+   1. (41)₈ = (33)₁₀
+   2. (207)₈ = (135)₁₀
+   3. (124)₈ = (84)₁₀
+   4. (311)₈ = (201)₁₀
+
+V. Convert Decimal to HexaDecimal
+   1. (317)₁₀ = (13D)₁₆
+   2. (41)₁₀ = (29)₁₆
+   3. (14)₁₀ = (E)₁₆
+   4. (845)₁₀ = (34D)₁₆
+
+VI. Convert HexaDecimal to Decimal
+   1. (A11)₁₆ = (2577)₁₀
+   2. (49)₁₆ = (73)₁₀
+   3. (AE2F)₁₆ = (44591)₁₀
+   4. (D97)₁₆ = (3479)₁₀
+
+*/

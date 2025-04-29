@@ -80,3 +80,17 @@ int -> 32 bit
 For -ve -> 2^(31) i.e. -1, -2, -3, -4, -5,........, -2^(31) where 1 bit is already occupied by the sign of that number
 For non-negative -> 2^(31) i.e. 0, 1, 2, 3, 4, 5,........, 2^(31)-1 where 1 bit is already occupied by the sign of that number and since non-negative numbers also includes 0 which is the reason for why 2^(31)-1
 */
+
+/*
+* HOMEWORK:
+
+Print number
+
+1. Two numbers are given, print their product
+2. Two numbers are given a and b, print a-b
+3. Print 6*3 in output, don’t print 18, just 6*3 should be in the output screen.
+4. If we have only 4 bits, How 3 and -6 will be written in 4 bits.
+5. If we have only 5 bits, How 13 and -16 will be written in 5 bits.
+
+=> Full Timepass
+*/
